@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-13T12:52:57 IST" name="testClasses.LambdaTest" finished-at="2022-05-13T12:53:19 IST" duration-ms="21658">
+  <suite started-at="2022-05-13T13:07:07 IST" name="testClasses.LambdaTest" finished-at="2022-05-13T13:07:20 IST" duration-ms="12809">
     <groups>
     </groups>
-    <test started-at="2022-05-13T12:52:57 IST" name="Command line test" finished-at="2022-05-13T12:53:19 IST" duration-ms="21658">
+    <test started-at="2022-05-13T13:07:07 IST" name="Command line test" finished-at="2022-05-13T13:07:20 IST" duration-ms="12809">
       <class name="testClasses.LambdaTest">
-        <test-method is-config="true" signature="startTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:52:57 IST" name="startTest" finished-at="2022-05-13T12:52:57 IST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:07 IST" name="startTest" finished-at="2022-05-13T13:07:07 IST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:52:57 IST" name="openApplication" finished-at="2022-05-13T12:53:03 IST" duration-ms="5531" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:07 IST" name="openApplication" finished-at="2022-05-13T13:07:13 IST" duration-ms="5699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyTittleTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:03 IST" name="verifyTittleTest" finished-at="2022-05-13T12:53:03 IST" duration-ms="23" status="PASS">
+        <test-method signature="verifyTittleTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:13 IST" name="verifyTittleTest" finished-at="2022-05-13T13:07:13 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTittleTest -->
-        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:03 IST" name="setTestResult" finished-at="2022-05-13T12:53:08 IST" duration-ms="4796" status="PASS">
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:13 IST" name="setTestResult" finished-at="2022-05-13T13:07:14 IST" duration-ms="877" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestResult -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:08 IST" name="openApplication" finished-at="2022-05-13T12:53:14 IST" duration-ms="6178" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:14 IST" name="openApplication" finished-at="2022-05-13T13:07:19 IST" duration-ms="4985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="loginLambdaTest()[pri:1, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:14 IST" name="loginLambdaTest" finished-at="2022-05-13T12:53:14 IST" duration-ms="396" status="PASS">
+        <test-method signature="loginLambdaTest()[pri:1, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:19 IST" name="loginLambdaTest" finished-at="2022-05-13T13:07:19 IST" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLambdaTest -->
-        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:14 IST" name="setTestResult" finished-at="2022-05-13T12:53:19 IST" duration-ms="4401" status="PASS">
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:19 IST" name="setTestResult" finished-at="2022-05-13T13:07:20 IST" duration-ms="471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:19 IST" name="endTest" finished-at="2022-05-13T12:53:19 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T13:07:20 IST" name="endTest" finished-at="2022-05-13T13:07:20 IST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
