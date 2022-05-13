@@ -2,30 +2,58 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-05T11:53:41 IST" name="Command line suite" finished-at="2022-05-05T11:53:57 IST" duration-ms="16043">
+  <suite started-at="2022-05-13T12:52:57 IST" name="testClasses.LambdaTest" finished-at="2022-05-13T12:53:19 IST" duration-ms="21658">
     <groups>
     </groups>
-    <test started-at="2022-05-05T11:53:41 IST" name="Command line test" finished-at="2022-05-05T11:53:57 IST" duration-ms="16043">
-      <class name="sampleDemo.SecondTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:sampleDemo.SecondTest@281e3708]" started-at="2022-05-05T11:53:41 IST" name="launchBrowser" finished-at="2022-05-05T11:53:47 IST" duration-ms="6004" status="PASS">
+    <test started-at="2022-05-13T12:52:57 IST" name="Command line test" finished-at="2022-05-13T12:53:19 IST" duration-ms="21658">
+      <class name="testClasses.LambdaTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:52:57 IST" name="startTest" finished-at="2022-05-13T12:52:57 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyHomepageTitle()[pri:0, instance:sampleDemo.SecondTest@281e3708]" started-at="2022-05-05T11:53:53 IST" name="verifyHomepageTitle" finished-at="2022-05-05T11:53:53 IST" duration-ms="124" status="PASS">
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:52:57 IST" name="openApplication" finished-at="2022-05-13T12:53:03 IST" duration-ms="5531" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomepageTitle -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:sampleDemo.SecondTest@281e3708]" started-at="2022-05-05T11:53:53 IST" name="terminateBrowser" finished-at="2022-05-05T11:53:57 IST" duration-ms="4144" status="PASS">
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyTittleTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:03 IST" name="verifyTittleTest" finished-at="2022-05-13T12:53:03 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-      </class> <!-- sampleDemo.SecondTest -->
-      <class name="sampleDemo.FirstTest">
-        <test-method signature="sampleTestMethod()[pri:0, instance:sampleDemo.FirstTest@35a50a4c]" started-at="2022-05-05T11:53:47 IST" name="sampleTestMethod" finished-at="2022-05-05T11:53:53 IST" duration-ms="5726" status="PASS">
+        </test-method> <!-- verifyTittleTest -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:03 IST" name="setTestResult" finished-at="2022-05-13T12:53:08 IST" duration-ms="4796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTittleTest status=SUCCESS method=LambdaTest.verifyTittleTest()[pri:0, instance:testClasses.LambdaTest@51b279c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTestMethod -->
-      </class> <!-- sampleDemo.FirstTest -->
+        </test-method> <!-- setTestResult -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:08 IST" name="openApplication" finished-at="2022-05-13T12:53:14 IST" duration-ms="6178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="loginLambdaTest()[pri:1, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:14 IST" name="loginLambdaTest" finished-at="2022-05-13T12:53:14 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLambdaTest -->
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:14 IST" name="setTestResult" finished-at="2022-05-13T12:53:19 IST" duration-ms="4401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginLambdaTest status=SUCCESS method=LambdaTest.loginLambdaTest()[pri:1, instance:testClasses.LambdaTest@51b279c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:testClasses.LambdaTest@51b279c9]" started-at="2022-05-13T12:53:19 IST" name="endTest" finished-at="2022-05-13T12:53:19 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testClasses.LambdaTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+  </suite> <!-- testClasses.LambdaTest -->
 </testng-results>

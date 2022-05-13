@@ -1,2 +1,4 @@
-sampleDemo\FirstTest.class
-sampleDemo\SecondTest.class
+testClasses\LambdaTest.class
+pomClasses\LoginPOM.class
+utility\Utility.class
+sampleDemo\ExtentReportClass.class
